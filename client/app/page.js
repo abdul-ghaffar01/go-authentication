@@ -37,7 +37,7 @@ export default function Home() {
               {/* heading */}
               <div className="relative flex items-center justify-center my-5 bg-red-600">
                 <hr className="text-borderc top-0 w-full"/>
-                <h1 className="absolute text-textc text-sm bg-bgc px-2 text-textc">Or login with</h1>
+                <h1 className="absolute text-textc text-sm bg-bgc px-2 text-textc">Or login with 1</h1>
               </div>
               <div className="flex justify-between items-center mt-2 gap-2">
                 <Link href="/login/google" className="w-full px-4 py-2 bg-white text-dark border border-borderc rounded-md hover:bg-gray-100 text-center">Google</Link>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-screen">
+    <div className="w-screen min-h-screen items-center justify-center flex">
       <div className="max-w-[380px] w-full bg-light border-borderc border rounded-md mt-5 shadow-md mx-auto p-4">
         {/* Heading of login */}
         <h1 className="text-3xl text-primary text-center font-bold ">Login</h1>
@@ -37,7 +37,7 @@ export default function Home() {
               {/* heading */}
               <div className="relative flex items-center justify-center my-5 bg-red-600">
                 <hr className="text-borderc top-0 w-full"/>
-                <h1 className="absolute text-textc text-sm bg-bgc px-2 text-textc">Or login with 7</h1>
+                <h1 className="absolute text-textc text-sm bg-bgc px-2 text-textc">Or login with</h1>
               </div>
               <div className="flex justify-between items-center mt-2 gap-2">
                 <Link href="/login/google" className="w-full px-4 py-2 bg-white text-dark border border-borderc rounded-md hover:bg-gray-100 text-center">Google</Link>
